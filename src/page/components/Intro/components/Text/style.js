@@ -8,6 +8,7 @@ export const TextsContainer = styled.div`
   align-items: center;
   padding: 2rem 20rem;
   gap: 4rem;
+  padding-top: 5%;
 
   > div {
     display: flex;
@@ -19,7 +20,7 @@ export const TextsContainer = styled.div`
   }
 
   @media (max-width: 1000px) {
-    padding: 2rem;
+    padding: 25% 2rem 2rem 2rem;
 
     > div {
       > p {

@@ -4,6 +4,7 @@ export const defaultTheme = {
       'base-background': '#F8F8F9',
       'main': '#606D5B',
       'secondary': '#B79D8A',
+      'text': '#767676'
     },
     textSizes: {
       'title-lx': '4rem',

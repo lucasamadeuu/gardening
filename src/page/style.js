@@ -10,9 +10,5 @@ export const LandingPageContainer = styled.div`
 export const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 8rem;
-
-  @media(max-width: 1000px) {
-    padding: 0 2rem;
-  }
+  gap: 15.625rem;
 `

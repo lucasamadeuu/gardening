@@ -5,9 +5,11 @@ export const ServicesContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 8rem;
+  padding: 0 10rem;
 
   @media (max-width: 1000px) {
     gap: 4rem;
+    padding: 0 2rem;
   }
 `;
 

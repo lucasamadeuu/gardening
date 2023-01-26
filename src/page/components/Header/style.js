@@ -1,9 +1,8 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   width: 100%;
   padding: 0rem 2rem;
-  position: sticky;
   > div {
     max-width: 79rem;
     margin: 0px auto;
@@ -12,7 +11,7 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     padding: 3rem 0px;
   }
-`
+`;
 
 export const NavDesktopContainer = styled.ul`
   display: flex;
@@ -21,7 +20,7 @@ export const NavDesktopContainer = styled.ul`
   @media (max-width: 1000px) {
     display: none;
   }
-`
+`;
 
 export const NavMobileContainer = styled.ul`
   display: none;
@@ -34,14 +33,14 @@ export const NavMobileContainer = styled.ul`
     padding-bottom: 2rem;
     text-transform: uppercase;
   }
-`
+`;
 
 export const MobileButton = styled.div`
   display: none;
   @media (max-width: 1000px) {
     display: block;
     .hamburger-react {
-      color: ${({ theme }) => theme.colors['base-background']};
+      color: ${({ theme }) => theme.colors["base-background"]};
     }
   }
-`
+`;

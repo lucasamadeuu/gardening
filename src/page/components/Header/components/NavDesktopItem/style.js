@@ -6,4 +6,8 @@ export const NavLink = styled.a`
   color: ${({ theme }) => theme.colors['base-white']};
   font-size: ${({ theme }) => theme.textSizes['text-m']};
   font-weight: 500;
+
+  &:hover {
+    border-bottom: 3px solid ${({ theme }) => theme.colors['base-white']};
+  }
 `

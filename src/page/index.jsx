@@ -5,6 +5,7 @@ import  Plant  from '../assets/plant.svg'
 import { Services } from './components/Services'
 import { ServicesContainer } from './components/Services/style'
 import { About } from './components/About'
+import { Jobs } from './components/Jobs'
 
 const ServicesInfo = [
     {
@@ -44,6 +45,7 @@ export function LandingPage() {
             ))}
             </ServicesContainer>
             <About />
+            <Jobs />
             </MainContainer>
         </LandingPageContainer>
     )

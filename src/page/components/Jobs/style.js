@@ -11,6 +11,7 @@ export const JobsContainer = styled.div`
 export const TitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2.5rem;
 
   > h1 {
     width: 30%;
@@ -21,7 +22,7 @@ export const TitleContainer = styled.div`
     gap: 2rem;
 
     > a {
-        width: 30%;
+      width: 30%;
       > img {
         cursor: pointer;
       }
@@ -37,29 +38,5 @@ export const TitleContainer = styled.div`
       width: 100%;
       text-align: center;
     }
-  }
-`;
-
-export const ImageContainer = styled.div`
-  display: flex;
-  gap: 2rem;
-  padding-top: 2rem;
-  width: 100%;
-  overflow: hidden;
-  overflow-x: scroll;
-  float: left;
-  padding-bottom: 10rem;
-
-  > img {
-    width: 550px;
-    height: 280px;
-  }
-
-  &::-webkit-scrollbar{
-    display: none;
-  }
-
-  @media (max-width: 1000px) {
-    overflow-x: scroll;
   }
 `;

@@ -1,0 +1,18 @@
+.slick-prev, .slick-next {
+    background: #606D5B;
+    color: #606D5B;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background: #606D5B;
+}
+
+.slick-prev {
+    top: -30%;
+    left: 90%;
+}
+
+.slick-next {
+    top: -30%;
+    right: 0%;
+}

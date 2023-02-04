@@ -6,6 +6,7 @@ import { Services } from './components/Services'
 import { ServicesContainer } from './components/Services/style'
 import { About } from './components/About'
 import { Jobs } from './components/Jobs'
+import { Footer } from './components/Footer'
 
 const ServicesInfo = [
     {
@@ -46,6 +47,7 @@ export function LandingPage() {
             </ServicesContainer>
             <About />
             <Jobs />
+            <Footer />
             </MainContainer>
         </LandingPageContainer>
     )

@@ -12,4 +12,8 @@ export const RegularText = styled.p`
   font-size: ${({ theme, fontSize }) => theme.textSizes[`${fontSize}`]};
   line-height: 160%;
   font-weight: ${({ weight }) => weight ?? 400};
+
+  .footer {
+    color: ${({ theme }) => theme.colors['base-white']};
+  }
 `

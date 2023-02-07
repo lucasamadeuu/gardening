@@ -10,7 +10,7 @@ const ContactInfos = [
     {
         Image: Email,
         Link: "mailto:example@gmail.com?subject=Orçamento",
-        Text: "exemplo.de.email@gmail.com",
+        Text: "exemplodeemail@gmail.com",
     },
     {
         Image: WhatsApp,

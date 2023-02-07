@@ -9,10 +9,12 @@ import { ContactInfo } from "./components/ContactInfo";
 const ContactInfos = [
     {
         Image: Email,
+        Link: "mailto:example@gmail.com?subject=Orçamento",
         Text: "exemplo.de.email@gmail.com",
     },
     {
         Image: WhatsApp,
+        Link: "https://api.whatsapp.com/send?phone=5511975131883&text=Eu gostaria de fazer um orçamento",
         Text: "+55 (11) 91292-1253",
     }
 ]
@@ -30,6 +32,7 @@ export function Footer() {
                         {ContactInfos.map((info, index) => (
                             <ContactInfo
                                 image={info.Image}
+                                link={info.Link}
                                 text={info.Text}
                             />
                         ))}

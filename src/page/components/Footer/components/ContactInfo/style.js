@@ -8,11 +8,15 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactInfoContainer = styled.div`
+  > a {
+    > img {
+      width: 30px;
+    }
+  }
+`;
+
+export const ContactLink = styled.a`
   display: flex;
   align-items: center;
   gap: 0.7rem;
-
-  > img {
-    width: 30px;
-  }
 `;

@@ -1,12 +1,14 @@
 import { RegularText } from "../../../../../components/Typograph";
-import { ContactInfoContainer } from "./style";
+import { ContactInfoContainer, ContactLink } from "./style";
 
-export function ContactInfo({ image, text }) {
-    return(
+export function ContactInfo({ image, link, text }) {
+    return (
         <ContactInfoContainer>
-            <img src={image} alt="contact" />
-            <RegularText color="base-white">{text}</RegularText>
+            <ContactLink href={link}>
+                <img src={image} alt="contact" />
+                <RegularText color="base-white">{text}</RegularText>
+            </ContactLink>
         </ContactInfoContainer>
     )
-    
+
 }

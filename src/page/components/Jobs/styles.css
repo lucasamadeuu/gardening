@@ -1,18 +1,36 @@
-.slick-prev, .slick-next {
-    background: #606D5B;
-    color: #606D5B;
+.Back {
+    cursor: pointer;
+    position: absolute;
+    top: -46%;
+    left: 91.2%;
 }
 
-.slick-prev:hover, .slick-next:hover {
-    background: #606D5B;
+.Foward {
+    cursor: pointer;
+    position: absolute;
+    top: -46%;
+    left: 96.4%;
 }
 
-.slick-prev {
-    top: -30%;
-    left: 90%;
+@media (max-width: 1000px) {
+    .Back {
+        top: 0%;
+        left: 45%;
+        z-index: 1;
+    }
+
+    .Foward {
+        top: 0%;
+        left: 55%;
+    }
+
+    .slick-list {
+        padding-top: 5rem;
+    }
 }
 
-.slick-next {
-    top: -30%;
-    right: 0%;
+@media (max-width: 600px) {
+    .Back {
+        left: 35%;
+    }
 }

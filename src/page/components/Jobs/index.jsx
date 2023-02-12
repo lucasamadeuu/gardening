@@ -9,13 +9,32 @@ import "slick-carousel/slick/slick-theme.css";
 import "./styles.css"
 import { Images } from "./components/Images";
 
+function SampleNextArrow(props) {
+    const { onClick } = props;
+    return (
+        <div className="Foward" onClick={onClick}>
+            <img src={Foward} alt="" />
+        </div>
+    );
+}
+
+function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+        <div className="Back" onClick={onClick}>
+            <img src={Back} alt="" />
+        </div>
+    );
+}
+
 var settings = {
     infinite: false,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 3,
     initialSlide: 0,
-    arrows: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
     responsive: [
         {
             breakpoint: 1500,
@@ -88,10 +107,6 @@ export function Jobs() {
         <JobsContainer>
             <TitleContainer>
                 <TitleText fontSize="title-l" color="main" weight="800">Nossos últimos serviços</TitleText>
-                <div>
-                    <a><img src={Back} alt="back" /></a>
-                    <a><img src={Foward} alt="foward" /></a>
-                </div>
             </TitleContainer>
             <Slider {...settings}>
                 {images.map((image, index) => (

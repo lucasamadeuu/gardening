@@ -40,7 +40,7 @@ var settings = {
             breakpoint: 1500,
             settings: {
                 slidesToShow: 4,
-                slidesToScroll: 3,
+                slidesToScroll: 4,
             },
         },
         {
@@ -60,16 +60,16 @@ var settings = {
         {
             breakpoint: 850,
             settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
+                slidesToShow: 2,
+                slidesToScroll: 2,
             },
         },
         {
             breakpoint: 600,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 2,
-                initialSlide: 2,
+                slidesToScroll: 1,
+                initialSlide: 1,
             },
         },
         {
@@ -77,7 +77,7 @@ var settings = {
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                initialSlide: 2,
+                initialSlide: 1,
                 dots: false,
             },
         },

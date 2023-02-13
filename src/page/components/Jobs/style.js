@@ -29,7 +29,7 @@ export const TitleContainer = styled.div`
     }
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
     align-items: center;
     gap: 2.5rem;

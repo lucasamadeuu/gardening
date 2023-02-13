@@ -12,7 +12,7 @@
     left: 96.4%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .Back {
         top: 0%;
         left: 45%;
@@ -33,4 +33,11 @@
     .Back {
         left: 35%;
     }
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
